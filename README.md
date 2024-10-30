@@ -46,7 +46,7 @@ La Wavelet Morlet es una onda compuesta por una exponencial compleja multiplicad
 
 - **Uso en análisis local**:  
   Esta wavelet es particularmente útil para detectar cambios sutiles en cortos períodos de tiempo dentro de la señal de ECG, capturando patrones rápidos y eventos de interés en la frecuencia cardíaca.
-## Diagrama de flujo mostrando el plan de acción para cumplir el objetivo de la práctica
+## 📖 DIAGRAMA DE FLUJO DEL PLAN DE ACCIÓN PARA CUMPLIR EL OBJETIVO DE LA PRÁCTICA 
 
 ## 💾 ADQUISICIÓN DE LA SEÑAL
 
