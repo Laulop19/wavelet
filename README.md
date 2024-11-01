@@ -145,11 +145,18 @@ El script genera varios gráficos para facilitar el análisis y evaluación del 
 - *Señal ECG Original y Filtrada*: Comparación de la señal ECG sin filtrar y la señal filtrada, permitiendo evaluar la efectividad del filtro.
 - *Detección de Picos R*: Visualización de la señal filtrada con los picos R marcados.
 - *Intervalos R-R*: Gráfico de los intervalos R-R en el tiempo, útil para el análisis de HRV.
-  <img src="d3d9542c-528d-47b4-9b54-b550fbca6a76.jpeg" alt="Señal ECG Filtrada con picos R (5 min)" width="300"/>
-  <img src="3f5b4a7c-0b8c-4630-a846-6c860febfaaf.jpeg" alt="Señal ECG Filtrada con picos R (30 s)" width="300"/>
-  <img src="PHOTO-2024-11-01-08-04-02.jpeg" alt="Intervalos R-R (5 min)" width="300"/>
-  <img src=" PHOTO-2024-11-01-08-04-07.jpeg" alt="Intervalos R-R (30 s)" width="300"/>
 
+  <img src="d3d9542c-528d-47b4-9b54-b550fbca6a76.jpeg" alt="Señal ECG Filtrada con picos R (5 min)" width="300"/>
+  <p style="text-align: center;">Señal ECG Filtrada con picos R (5 min)</p>
+  
+  <img src="3f5b4a7c-0b8c-4630-a846-6c860febfaaf.jpeg" alt="Señal ECG Filtrada con picos R (30 s)" width="300"/>
+  <p style="text-align: center;">Señal ECG Filtrada con picos R (30 s)</p>
+  
+  <img src="PHOTO-2024-11-01-08-04-02.jpeg" alt="Intervalos R-R (5 min)" width="300"/>
+  <p style="text-align: center;">Intervalos R-R (5 min)</p>
+  
+  <img src="PHOTO-2024-11-01-08-04-07.jpeg" alt="Intervalos R-R (30 s)" width="300"/>
+  <p style="text-align: center;">Intervalos R-R (30 s)</p>
 
 ## 🔍 ANÁLISIS DE LA HRV EN EL DOMINIO DEL TIEMPO
 # Análisis de la Variabilidad de la Frecuencia Cardíaca (HRV)
@@ -183,10 +190,13 @@ Una vez que se han identificado los picos R, se calculan los intervalos R-R:
 Los intervalos R-R se utilizan para calcular varios parámetros estadísticos que describen la HRV:
 
 - *Media de los intervalos R-R*:
-<img src="c4c37da-8a07-46b5-a16b-817388е36888.jpeg" alt="" width="300"/>
+  
+ <img src="c4fc37da-8a07-46b5-a16b-817388e36888.jpeg" alt="" width="400"/>
+
 - *Desviación estándar de los intervalos R-R*:
 
  <img src="9d8dbe9a-81e2-4f26-bc04-a23101444b81.jpeg" alt="" width="400"/>
+ 
 ## Interpretación de Resultados
 
 Los parámetros calculados proporcionan información crítica sobre la salud cardiovascular:
@@ -205,7 +215,9 @@ Los parámetros calculados proporcionan información crítica sobre la salud car
 ## Conclusión
 
 El análisis de la HRV en el dominio del tiempo es una herramienta valiosa para evaluar la salud cardiovascular y la función del sistema nervioso autónomo. Al centrarse en los intervalos R-R y sus propiedades estadísticas, proporciona una visión clara de la variabilidad en la frecuencia cardíaca y su relación con el bienestar general.
-<img src="77f16ab6-a98e-489c-9d88-e350f3ef1139.jpeg" alt="Valores estadisticos" width="300"/>
+
+<img src="77f16ab6-a98e-489c-9d88-e350f3ef1139.jpeg" alt="Valores estadisticos" width="400"/>
+<p style="text-align: center;">Valores estadisticos</p>
 
 ## 💻 APLICACIÓN DE TRANSFORMADA WAVELET
 ### Transformada Wavelet Morlet
